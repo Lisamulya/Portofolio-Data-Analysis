@@ -1,4 +1,4 @@
-This project will show the Covid-19 new confirmed data in Indonesia. Import the data using SQL command from Bigquery and save it using CSV file.
+This project will show the Covid-19 new confirmed data in Indonesia. Import the data using SQL command from Bigquery and save it with CSV file format.
 Provide and visualize data using Tableau. 
 The matrix that we can anlayze from this data is
 1. The highest cases Covid-19 in Indonesia is Jakarta.
