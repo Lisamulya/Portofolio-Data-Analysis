@@ -1,2 +1,17 @@
-# Portofolio-Data-Analysis
-This project will show you the covid-19 data in Indonesia from 2020-2022 (almost 2 years)
+SELECT
+date,
+location_key,
+country_code,
+country_name,
+subregion1_name,
+subregion2_name,
+aggregation_level,
+population,
+area_sq_km,
+latitude,
+longitude,
+cumulative_confirmed,
+new_confirmed
+FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
+WHERE country_name= 'Indonesia'
+ORDER BY 1 DESC 
