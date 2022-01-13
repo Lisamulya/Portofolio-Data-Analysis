@@ -1,17 +1,4 @@
-SELECT
-date,
-location_key,
-country_code,
-country_name,
-subregion1_name,
-subregion2_name,
-aggregation_level,
-population,
-area_sq_km,
-latitude,
-longitude,
-cumulative_confirmed,
-new_confirmed
-FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
-WHERE country_name= 'Indonesia'
-ORDER BY 1 DESC 
+Provide and visualize data using Tableau. The matrix that we can anlayze from this data is
+1. The highest cases Covid-19 in Indonesia is Jakarta.
+2. As we can see on the chart, 2021 case is higher than 2020.
+3. From the data, we can make such a movement to accelerate the vaccination according the highest cases in Indonesia.
